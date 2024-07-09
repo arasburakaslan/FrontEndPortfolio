@@ -1,0 +1,35 @@
+
+header {
+    font-size:25px;
+    text-align: center;
+    background-color:skyblue;
+  }
+  
+  table {
+    margin:20px 30px;
+    border:solid;
+  }
+  
+  thead{
+    background-color: hsl(80 80% 40%);
+    width:50%;
+  }
+  
+  thead{
+    background-color: hsl(80 80% 40%);
+    width:50%;
+  }
+  
+  th h2{
+    font-style:italic;
+  }
+  td{
+    background-color:hsl(80 50% 80%)
+  }
+  
+  tr td:first-of-type{
+    background-color:hsl(50 50% 80%);
+    padding:20px 50px 20px 10px;
+  }
+  
+  
