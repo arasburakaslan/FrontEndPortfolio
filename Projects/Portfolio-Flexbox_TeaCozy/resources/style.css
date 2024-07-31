@@ -1,0 +1,105 @@
+*{
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    z-index: 1000;
+    border-bottom: 1px solid seashell;
+}
+
+#logo{
+    height: 50px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    text-decoration: underline;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+main{
+    position: relative;
+    top: 69px;
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items: center;
+}
+
+
+.mission{
+    background-image: url(./images/img-mission-background.webp) ;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+}
+
+.mission div{
+    width: 100%;
+    align-self: center; 
+}
+
+.featuredTea{
+    width: 1000px;
+    margin-top: 69px;
+}
+.teaSamples{
+   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.teaSamples img {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.locations {
+    background-image: url(./images/img-locations-background.webp);
+    height:500px;
+    width: 1200px;
+    margin-top: 69px;
+}
+
+.locations h2 {
+    position: relative;
+    margin:auto;
+    top:50px;
+    background-color: transparent;
+}
+
+.locations div {
+    position: relative;
+    margin:auto;
+    top:50px;
+    background-color: transparent;
+}
+
+.locationCards {
+    display: flex;
+    width:300px;
+    gap:40px; 
+    width: 100%;
+    height: 300px;;
+}
